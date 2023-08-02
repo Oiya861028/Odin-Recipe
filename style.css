@@ -1,0 +1,11 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font: 700;
+  text-align: left;
+}
+
+#heading {
+  background-color: black;
+  color: red;
+  
+}
