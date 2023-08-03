@@ -1,0 +1,19 @@
+* {
+  line-height: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  border: 3px solid black;
+  background-color: rgb(250, 199, 118);
+}
+.description {
+  width: 50%;
+  font-size: larger;
+}
+
+#home {
+  font-size: larger;
+  color: blue;
+  text-decoration: none;
+}
+

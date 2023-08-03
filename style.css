@@ -1,11 +1,23 @@
-body {
+h1 {
+  color:red;
+  font-size: xx-large;
   font-family: 'Times New Roman', Times, serif;
-  font: 700;
-  text-align: left;
+  background-color: orange;
 }
 
-#heading {
-  background-color: black;
-  color: red;
-  
+ul {
+  border-spacing: 25px;
+  background-color: yellow;
+}
+a {
+  color: blue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.container {
+  border: 1px dotted black;
+  width: 50%;
+  letter-spacing: 2px;
 }
