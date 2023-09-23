@@ -1,23 +1,35 @@
-h1 {
-  color:red;
-  font-size: xx-large;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: orange;
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 3em;
+  padding: 50px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: light gray;
 }
 
-ul {
-  border-spacing: 25px;
-  background-color: yellow;
+h1{
+  background-color: rgb(240, 149, 79);
+  font-family: "Noto Sans Linear B", sans-serif;
+  font-size: 40px;
+  margin: -10px auto;
+  padding: 5px ;
+  border: 5px rgb(217, 173, 72) groove;
 }
-a {
-  color: blue;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 500;
-  font-size: larger;
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  list-style: none;
+  text-align: left;
 }
-
-.container {
-  border: 1px dotted black;
-  width: 50%;
-  letter-spacing: 2px;
+button {
+  width: 200px;
+  display: flex;
+  border: gray 5px;
+  border-top: none;
+  border-style: filled dashed;
+  padding: 10px;
+  margin: 10px;
+  
 }
