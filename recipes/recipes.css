@@ -1,15 +1,21 @@
-body {
+* {
+  display: flexbox;
+  box-sizing: border-box;
   background-color: rgb(238, 242, 177);
-  line-height: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.heading {
-  width: 50%;
-  font-family: cursive;
-  font-size: larger;
-  font-weight: bolder;
-  font-size: x-large;
+
+#title {
+  background-color: rgb(255, 210, 175);
+  font-family: "Noto Sans Linear B", sans-serif;
+  font-size: 40px;
+  padding-left: 3em;
+  margin: 20px 0px 20px -10px; 
+  border: 5px silver groove;
+  border-left: none;
+  border-right: none;
 }
 
 .description {
