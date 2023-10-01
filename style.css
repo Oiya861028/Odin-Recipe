@@ -1,35 +1,24 @@
 html {
   box-sizing: border-box;
-}
-body {
-  margin: 3em;
-  padding: 50px;
-  padding-top: 10px;
-  text-align: center;
-  background-color: light gray;
+  background-color: rgb(238, 242, 177);
 }
 
-h1{
-  background-color: rgb(240, 149, 79);
+.heading {
+  background-color: rgb(255, 210, 175);
   font-family: "Noto Sans Linear B", sans-serif;
   font-size: 40px;
-  margin: -10px auto;
-  padding: 5px ;
-  border: 5px rgb(217, 173, 72) groove;
+  padding-left: 3em;
+  margin: 20px 0px 20px -10px; 
+  border: 5px silver groove;
+  border-left: none;
+  border-right: none;
 }
-li {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: large;
-  list-style: none;
-  text-align: left;
-}
-button {
-  width: 200px;
-  display: flex;
-  border: gray 5px;
-  border-top: none;
-  border-style: filled dashed;
-  padding: 10px;
+.Recipe-menu {
+  border: 5px black solid;
   margin: 10px;
-  
+  border-radius: 2em;
+  line-height: 3em;
+  font-size: 50px;
+  padding-left: 10px;
+  background-color: hsl(36, 66%, 58%);
 }
